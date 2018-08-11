@@ -1,0 +1,5 @@
+#contenu{display:flex;}
+.bloc1{flex:3;background-color:blue;}
+.bloc2{flex:7;background-color:yellow;}
+.bloc3{flex:5;background-color:green;}
+p{font-size:14px;text-align:left;}

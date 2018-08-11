@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+			<meta charset="UTF-8" />
+			<animaux>Représentation Animal </title>
+	</head>
+
+	<body>
+			<ul>
+			<li><a href="file:///home/eleve/exercices/HTML/Chien.htlm">Chien</a></li>
+			<li><a href="file:///home/eleve/exercices/HTML/Chat.html">Chat</a></li>
+			<li><a href="file:///home/eleve/exercices/HTML/Poisson.html">Poisson</a></li>
+			</ul>
+
+	</body>
+
+</html>

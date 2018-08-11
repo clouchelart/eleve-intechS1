@@ -1,0 +1,9 @@
+#menu{position:absolute;top:0;left:0;background-color:#E0FCC8;width:700px;height:30px;}
+#menu li{float:left;width:150px;list-style-type:none;border-style:dashed;border-width:1px;}
+#menu li a:link, #menu li a:visited{color:black;text-decoration:none;font-size:12px;padding:5px;}
+#menu li:hover{background-color:green;}
+#menu .sous-menu li{background-color:#E0FCC8;}
+#menu .sous-menu {margin:0;padding:0;border:0;display:none;}
+#menu li:hover > .sous-menu{display:block;}
+#menu .sous-menu li:hover{background-color:blue;}
+#menu .sous-menu li{border-top:none;border-bottom:none;}

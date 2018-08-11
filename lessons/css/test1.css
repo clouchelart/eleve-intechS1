@@ -1,0 +1,10 @@
+#menu {background:red;margin-bottom:0;}
+.bloc1{background:yellow;flex:2;padding-bottom:30px;}
+.bloc2{background:blue;flex:6;height:110px;line-height:5px;}
+.bloc2 h2:first-child{line-height:25px;}
+.bloc3{background:yellow;flex:2;height:80px;}
+.bloc3 p{margin-top:0;}
+#contenu{display:flex;margin-top:-22px;}
+footer{background:#00FF00;margin-top:-16px;}
+h2{margin-top:0;}
+

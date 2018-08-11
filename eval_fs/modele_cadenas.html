@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadena</title>
+	<meta charset="UTF-8" />
+
+	<style>
+		div {
+			position: relative;
+		}
+		table {
+			position: absolute;
+			left: 80px;
+			top: 100px;
+		}
+		td {
+			text-align: center;
+		}
+		.nb  {
+			text-align: center;
+			background-color: #b5ddc9;
+			border: 1px solid black;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<ol>
+	<li>Affichez les chiffres de la combinaison secrète souhaitée puis cliquez sur le cadenas pour le fermer </li>
+	<li>Changez les chiffres de la combinaison : le cadenas doit rester fermé</li>
+	<li>Le cadenas ne s'ouvre que lorsqu'on recompose la combinaison secrète (celle choisie à l'étape 1)</li>
+	</ol>
+
+	<div>
+
+		<a href="req_fermer"><img src="{etat}">
+
+		<table>
+			<tr>
+				<td><a href="req_changer?signe=moins&caze=0"><img src="moins.png"></td>
+				<td><a href="req_changer?signe=moins&caze=1"><img src="moins.png"></td>
+				<td><a href="req_changer?signe=moins&caze=2"><img src="moins.png"></td>
+				<td><a href="req_changer?signe=moins&caze=3"><img src="moins.png"></td>
+			</tr><tr>
+				<td class="nb">{nb0}</td><td class="nb">{nb1}</td><td class="nb">{nb2}</td><td class="nb">{nb3}</td>
+			</tr><tr>
+				<td><a href="req_changer?signe=plus&caze=0"><img src="plus.png"></td>
+				<td><a href="req_changer?signe=plus&caze=1"><img src="plus.png"></td>
+				<td><a href="req_changer?signe=plus&caze=2"><img src="plus.png"></td>
+				<td><a href="req_changer?signe=plus&caze=3"><img src="plus.png"></td>
+			</tr>
+		</table>
+		
+
+	</div>
+
+</body>
+
+</html>

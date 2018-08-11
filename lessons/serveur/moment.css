@@ -1,0 +1,17 @@
+.cadre{
+	border: 15px solid black;
+	padding: 5px 0px 5px 0px;
+	width: 350px;
+	text-align: center;
+	font-family: Courier;
+	font-weight: bold;
+	background-color: #C1D1D1;
+	box-shadow: 5px 5px 5px #bbb;
+	}
+.heure {
+	font-size: 40px;
+}
+.date {
+	font-size: 20px;
+}
+
